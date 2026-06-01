@@ -1,0 +1,21 @@
+fastapi==0.95.2
+uvicorn[standard]==0.21.1
+SQLAlchemy==2.0.19
+asyncpg==0.27.0
+alembic==1.11.1
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+pydantic==1.10.12
+# psycopg2-binary removed for Windows build issues; using asyncpg for async Postgres
+boto3==1.28.67
+redis==5.3.1
+celery==5.3.1
+requests==2.31.0
+stripe>=2.0.0
+aiosqlite==0.18.0
+
+# Dev/test
+pytest==7.4.2
+pytest-asyncio==0.21.0
+httpx==0.24.1
